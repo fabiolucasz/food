@@ -1,6 +1,5 @@
 import { Tabs } from "expo-router";
 import {FontAwesome} from '@expo/vector-icons'
-import AntDesign from '@expo/vector-icons/AntDesign';
 
 export default function Layout() {
   return (
@@ -31,34 +30,16 @@ export default function Layout() {
       />
 
 <Tabs.Screen 
-      name="add-product"
+      name="cart"
       options={{
-        title:' Adicionar Produto',
+        title:' Carrinho',
         headerShown: false ,
         tabBarIcon: ({focused, color, size}) => {
 
           if (focused){
-            return <FontAwesome name="plus" color={color} size={size}/> 
+            return <FontAwesome name="shopping-cart" color={color} size={size}/> 
           } else {
-            return <FontAwesome name="plus" color={color} size={size}/>
-          }
-
-        }
-      }}
-
-      />
-
-<Tabs.Screen 
-      name="reports"
-      options={{
-        title:' Relatórios',
-        headerShown: false ,
-        tabBarIcon: ({focused, color, size}) => {
-
-          if (focused){
-            return <AntDesign name="barschart" size={24} color="black" /> 
-          } else {
-            return <AntDesign name="barschart" size={24} color="black" />
+            return <FontAwesome name="shopping-cart" color={color} size={size}/>
           }
 
         }

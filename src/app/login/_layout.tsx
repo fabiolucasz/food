@@ -10,11 +10,9 @@ export default function Layout() {
       headerTintColor: "#fff"
     }}>
       
-      <Stack.Screen name="index" options={{headerShown: false}}/>
-      <Stack.Screen name="login" options={{headerShown: false}}/>
+      <Stack.Screen name="newUser" options={{headerShown: false}}/>
+      <Stack.Screen name="replacePass" options={{headerShown: false}}/>
       <Stack.Screen name="(tabs)" options={{headerShown: false}}/>
-
-    
       
 
     </Stack>

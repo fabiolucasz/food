@@ -5,8 +5,6 @@ export default function Layout() {
     <Stack>
       
       <Stack.Screen name="dashboard" options={{headerShown: false}}/>
-      <Stack.Screen name="(tabs)/edit" options={{headerShown: false}}/>
-      {/* <Stack.Screen name="edit" options={{headerShown: false}}/> */}
 
     </Stack>
   );
